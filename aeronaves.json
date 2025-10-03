@@ -1,0 +1,216 @@
+[
+  {
+    "codigo": "1",
+    "modelo": "777",
+    "tipo": "Comercial",
+    "capacidade": 100,
+    "alcance": 1000,
+    "pecas": [
+      {
+        "nome": "Asa",
+        "tipo": "Estrutural",
+        "fornecedor": "Boeing",
+        "status": "Em Produção"
+      },
+      {
+        "nome": "Turbina",
+        "tipo": "Importada",
+        "fornecedor": "Mercedez",
+        "status": "Em Produção"
+      }
+    ],
+    "etapas": [
+      {
+        "nome": "Construção",
+        "prazo": "7 dias",
+        "status": "Concluída"
+      },
+      {
+        "nome": "2",
+        "prazo": "2 dias",
+        "status": "Em Andamento",
+        "FUNCIONARIO_FILE": "funcionarios.json",
+        "funcionarios": [
+          {
+            "nome": "Enrico",
+            "telefone": "1299194",
+            "endereco": "Rua 1",
+            "usuario": "Enrico",
+            "senha": "123",
+            "permissao": "Administrador"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "codigo": "2",
+    "modelo": "2",
+    "tipo": "Militar",
+    "capacidade": 10,
+    "alcance": 10000,
+    "etapas": [
+      {
+        "nome": "teste",
+        "prazo": "1",
+        "status": "Concluída"
+      }
+    ],
+    "pecas": [],
+    "funcionarios": [],
+    "testes": []
+  },
+  {
+    "codigo": "3",
+    "modelo": "papel",
+    "tipo": "Militar",
+    "capacidade": 1,
+    "alcance": 1,
+    "etapas": [
+      {
+        "nome": "montagem",
+        "prazo": "1",
+        "status": "Concluída",
+        "FUNCIONARIO_FILE": "funcionarios.json",
+        "funcionarios": [
+          {
+            "nome": "Enrico",
+            "telefone": "1299194",
+            "endereco": "Rua 1",
+            "usuario": "Enrico",
+            "senha": "123",
+            "permissao": "Administrador"
+          },
+          {
+            "nome": "Gerson",
+            "telefone": "4312313",
+            "endereco": "Andromeda",
+            "usuario": "gerso",
+            "senha": "123",
+            "permissao": "Engenheiro"
+          }
+        ]
+      }
+    ],
+    "pecas": [
+      {
+        "nome": "folha",
+        "tipo": "nacional",
+        "fornecedor": "dunder miflin",
+        "status": "Em Transporte"
+      }
+    ],
+    "funcionarios": [],
+    "testes": [
+      {
+        "tipo": "Aerodinâmico",
+        "resultado": true,
+        "testes": []
+      },
+      {
+        "tipo": "Elétrico",
+        "resultado": true,
+        "testes": []
+      }
+    ]
+  },
+  {
+    "codigo": "4",
+    "modelo": "676",
+    "tipo": "Militar",
+    "capacidade": 300,
+    "alcance": 100000,
+    "etapas": [
+      {
+        "nome": "Montagem",
+        "prazo": "3 dias",
+        "status": "Concluída",
+        "FUNCIONARIO_FILE": "funcionarios.json",
+        "funcionarios": [
+          {
+            "nome": "Enrico",
+            "telefone": "1299194",
+            "endereco": "Rua 1",
+            "usuario": "Enrico",
+            "senha": "123",
+            "permissao": "Administrador"
+          },
+          {
+            "nome": "Gerson",
+            "telefone": "4312313",
+            "endereco": "Andromeda",
+            "usuario": "gerso",
+            "senha": "123",
+            "permissao": "Engenheiro"
+          }
+        ]
+      },
+      {
+        "nome": "Reparos ",
+        "prazo": "1 dia",
+        "status": "Concluída",
+        "FUNCIONARIO_FILE": "funcionarios.json",
+        "funcionarios": [
+          {
+            "nome": "Enrico",
+            "telefone": "1299194",
+            "endereco": "Rua 1",
+            "usuario": "Enrico",
+            "senha": "123",
+            "permissao": "Administrador"
+          },
+          {
+            "nome": "Gerson",
+            "telefone": "4312313",
+            "endereco": "Andromeda",
+            "usuario": "gerso",
+            "senha": "123",
+            "permissao": "Engenheiro"
+          }
+        ]
+      },
+      {
+        "nome": "Limpeza ",
+        "prazo": "2 dias",
+        "status": "Concluída",
+        "funcionarios": [
+          {
+            "nome": "Enrico",
+            "telefone": "1299194",
+            "endereco": "Rua 1",
+            "usuario": "Enrico",
+            "senha": "123",
+            "permissao": "Administrador"
+          }
+        ]
+      }
+    ],
+    "pecas": [
+      {
+        "nome": "Turbina ",
+        "tipo": "Importada",
+        "fornecedor": "Volkswagen",
+        "status": "Pronta"
+      },
+      {
+        "nome": "Asa Diantera",
+        "tipo": "Nacional",
+        "fornecedor": "Embraer",
+        "status": "Pronta"
+      }
+    ],
+    "funcionarios": [],
+    "testes": [
+      {
+        "tipo": "Hidráulico",
+        "resultado": true,
+        "testes": []
+      },
+      {
+        "tipo": "Aerodinâmico",
+        "resultado": false,
+        "testes": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+=== RELATÓRIO FINAL DA AERONAVE ===
+Código......: 3
+Modelo......: papel
+Tipo........: Militar
+Capacidade..: 1
+Alcance.....: 1
+
+--- Peças ---
+1. folha | nacional | dunder miflin | Status: Em Transporte
+
+--- Etapas ---
+1. montagem | Prazo: 1 | Status: Concluída
+     Funcionários: Enrico, Gerson
+
+--- Testes ---
+1. Tipo: Aerodinâmico | Resultado: Aprovado
+2. Tipo: Elétrico | Resultado: Aprovado

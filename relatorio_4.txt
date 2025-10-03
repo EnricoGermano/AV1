@@ -1,0 +1,22 @@
+=== RELATÓRIO FINAL DA AERONAVE ===
+Código......: 4
+Modelo......: 676
+Tipo........: Militar
+Capacidade..: 300
+Alcance.....: 100000
+
+--- Peças ---
+1. Turbina  | Importada | Volkswagen | Status: Pronta
+2. Asa Diantera | Nacional | Embraer | Status: Pronta
+
+--- Etapas ---
+1. Montagem | Prazo: 3 dias | Status: Concluída
+     Funcionários: Enrico, Gerson
+2. Reparos  | Prazo: 1 dia | Status: Concluída
+     Funcionários: Enrico, Gerson
+3. Limpeza  | Prazo: 2 dias | Status: Concluída
+     Funcionários: Enrico
+
+--- Testes ---
+1. Tipo: Hidráulico | Resultado: Aprovado
+2. Tipo: Aerodinâmico | Resultado: Reprovado
