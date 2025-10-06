@@ -5,6 +5,7 @@ Professor Gerson da Penha Neto <br>
 Aluno Enrico de Chiara Germano 2°DSM<br>
 # Manual de instalação
 >> clonar repositório<br>
+>> npm install<br>
 >> cd src<br>
 >> npx tsc app.ts<br>
 >> node app.js<br>
